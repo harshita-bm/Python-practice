@@ -1,49 +1,64 @@
-#single, double , triple or more
-# num = int(input("Enter:"))
-# if num>=-9 and num<=9:
-#     print("single digit")
-# elif (num>=-99 and num<=-10)or (num>=10 and num<=99):
-#     print("Double digit")
-# elif (num>=-999 and num<=-100)or (num>=100 and num<=999):
-#     print("Triple digit")
-# else:
-#     print("More than that")
+# #1
 
+# print(" Age")
+# age= int(input("Enter the age:"))
+# if age>0 and age<=12:
+#     print("Child")
+# elif age>=13 and age<=19:
+#     print("Teen") 
+# elif age>=20 and age<=59:
+#     print("Adult")
+# else :
+#     print("Senior ")
 
-#lowercase, uppercase, digit or special character
-# s=input("enter:")
-# if s>='A' and s<='Z':
-#     print("Uppercase")
-# elif s>='a' and s<='z':
-#     print("lowercase")
-# elif s>='0' and s<='9':
-#     print("numeric")
+# #2
+# print("Small, Medium or Large")
+# size= int(input("Enter the size:"))
+# if size<10:
+#     print("Small")
+# elif size>=10 and size<50:
+#     print("Medium")
 # else:
-#     print("special character")
+#     print("Large")
 
-#  #divisible by 5 or 9 or by both or not divisible by both
-# i=int(input("Enter:"))
-# if i % 5==0:
-#     print("divisible by 5")
-# elif i % 9==0:
-#     print("Divisible by 9")
-# elif i % 5 ==0 and i % 9 ==0:
-#     print("divisible by both 5 and 9")
+# #3
+# print("Ratings")
+# rate= int(input("Enter the rate:"))
+# if rate >90:
+#     print("Excellent")
+# elif 70<rate<=90:
+#     print("Good")
+# elif 50<rate<=70:
+#     print("Satisfactory")
 # else:
-#     print("not divisible by both 5 and 9")
+#     print("Needs improvement")
     
     
-# greatest among 4
-print("Enter 4 integer numbers")
-n1=int(input("1 "))
-n2=int(input("2 "))
-n3=int(input("3 "))
-n4=int(input("4 "))
-if n1>n2 and n1>n3 and n1>n4:
-    print(n1,"is greater")
-elif n2>n1 and n2>n3 and n2>n4:
-    print(n2,"is greater")
-elif n3>n1 and n3>n2 and n1>n4:
-    print(n3,"is greater")
+# #4
+# print("Time of the day")
+# time= int(input("entre the time:"))
+# if 0<=time<12:
+#     print("Goodmorning")
+# elif 12<=time<15:
+#     print("Good afternoon")
+# elif 15<=time<20:
+#     print("Goodevening")
+# elif 20<=time<=23:   
+#      print("Good night")
+# else:
+#     print("Time should be with in 0-23")
+    
+    
+#5
+print("Speed")
+speed= int(input("Enter the speed:"))
+if 10<speed<30:
+    print("Slow")
+elif 30<=speed<60:
+    print("Average")
+elif 60<=speed<100:
+    print("Fast")
+elif 100<=speed<=180:
+    print("Very fast")
 else:
-    print(n4,"is greater")
+    print("Speed should be within 180")

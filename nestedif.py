@@ -1,62 +1,60 @@
-# # Validation
-# usn=input("Enetr username:")
-# if usn=="harsh123":
-#     pwd=input("Enter the password:")
-#     if pwd=="harsh_123":
-#         print("Login successful")
+# #1
+# ch=input("Enter a character:")
+# if ch>="a" and ch<="z" or ch>="A" and ch<="Z":
+#     if ch in "aeiou" or ch in "AEIOU":
+#         print("It is a vowel")
 #     else:
-#         print("Incorrect password")
+#         print("It is a consonent")
 # else:
-#     print("Incorrect username")
-    
-# #vowel only if it is uppercase
-# a=input("Enter :")
-# if a>='A' and a<='Z':
-#     if (a in 'AEIOU'):
-#         print("Vowel")
+#     print("Enter a character")
+
+# #2
+# n=int(input("Enter a number:"))
+# if n>0 :
+#     if n<10:
+#         print("Number is less than 10")
 #     else:
-#         print("Consonents")
+#         print("Number is +ve and greater than 10")
 # else:
-#     print("Its is not uppercase")
-
-
-# #divisible by 9 only if it is 2 digit
-# val= int(input("Enter:"))
-# if val>=-99 and val<=-10 or val>=10 and val<=99:
-#     if val % 9 == 0:
-#         print("divisible by 9")
+#     if n==0:
+#         print("Zero")
 #     else:
-#         print("Not divisible")
-# else:
-#     print("Enter 2 digit")
-
-## greatest among 4
-print("Enter 4 integer numbers")
-n1=int(input("1 "))
-n2=int(input("2 "))
-n3=int(input("3 "))
-n4=int(input("4 "))
-if n1>n2:
-    if n1>n3:
-        if n1>n4:
-            print(n1," is greater")
-        else:
-            print(n4, "is greater")
-    else:
-        if n3>n4 :
-            print(n3," is greater")
-        else:
-            print(n4,"is greater")           
-else:
-    if n2>n3 :
-        if n2>n4:
-            print(n2, "is greater")
-        else:
-            print(n4,"is greater")
-    else:
-        if n3>n4:
-            print(n3," is greater")
-        else:
-            print(n4,"is greater")
+#         print("Negetive")
         
-            
+        
+# #     3
+# age= int(input("Enter the age:"))
+# if age>18:
+#     print("Age is above 18")
+#     license= input("Has License : Yes / NO ?")
+#     if license == "y" or license =="Y":
+#         print("Owns Driving Licence")
+#     elif license=="n" or license=="N":
+#         print("No Driving Licence")
+#     else:
+#         print("Invalid")
+# else:
+#     print("Below 18")
+        
+#4
+# num= int(input("Enter the number:"))
+# if num>0:
+#     print("Number is +ve")
+#     if num%2==0:
+#         print("Nuumber is even")
+#     else:
+#         print("Number is odd")
+# else:
+#     print("Number is -ve")
+
+#5
+
+mark=int(input("Enter the marks:"))
+if mark>=40:
+    print("Passed")
+    if 75<mark<100:
+        print("Scored above 75" )
+    else:
+        print("Above 45 and below 75")
+else:
+    print("Failed")
